@@ -1,9 +1,10 @@
 # RequestMapping
 
     * 1、既可修饰方法也可修饰类
+    * 2、
 
     '''
-    @RequestMapping("/spring")
+     @RequestMapping("/spring")
      @Controller
      public class HiController {
 
