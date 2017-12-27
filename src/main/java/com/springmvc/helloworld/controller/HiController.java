@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Created by 炜 on 2017/12/27.
  */
+@RequestMapping("/spring")
 @Controller
 public class HiController {
 

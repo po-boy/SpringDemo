@@ -11,7 +11,7 @@
     <title>helloworld</title>
 </head>
 <body>
-    <form action="/helloworld">
+    <form action="/spring/helloworld">
         <input type="submit" value="go"/>
     </form>
 </body>
