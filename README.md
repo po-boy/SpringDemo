@@ -13,5 +13,18 @@ public class HiController {
     }
 }
 ```
+#### 常用属性
+```
+@RequestMapping("/spring")
+@Controller
+public class HiController {
+
+    @RequestMapping(value = "/helloworld", method = RequestMethod.GET, params = {"username","age!=10"}, headers = {"Accept-Lanaguage"})
+    public String hi(){
+        System.out.println("hello world");
+        return "success";
+    }
+}
+```
 
 

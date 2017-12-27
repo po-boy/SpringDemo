@@ -2,6 +2,7 @@ package com.springmvc.helloworld.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * Created by 炜 on 2017/12/27.
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HiController {
 
-    @RequestMapping("/helloworld")
+    @RequestMapping(value = "/helloworld", method = RequestMethod.GET, params = {"username","age!=10"}, headers = {"Accept-Lanaguage"})
     public String hi(){
         System.out.println("hello world");
         return "success";
