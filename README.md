@@ -26,5 +26,12 @@ public class HiController {
     }
 }
 ```
+#### Ant风格的URL
+> ?：匹配文件名中的一个字符
+> *：匹配文件名中的任意字符
+> **：** 匹配多层路径
 
+* /user/*/createUser: 匹配 – /user/aaa/createUser、/user/bbb/createUser 等 URL
+*/user/**/createUser: 匹配 – /user/createUser、/user/aaa/bbb/createUser 等 URL
+*/user/createUser??: 匹配 – /user/createUseraa、/user/createUserbb 等 URL
 
