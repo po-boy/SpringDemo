@@ -31,7 +31,7 @@ public class HiController {
 2. *：匹配文件名中的任意字符
 3. **：** 匹配多层路径
 
-1. /user/*/createUser: 匹配 – /user/aaa/createUser、/user/bbb/createUser 等 URL
-2. /user/**/createUser: 匹配 – /user/createUser、/user/aaa/bbb/createUser 等 URL
-3. /user/createUser??: 匹配 – /user/createUseraa、/user/createUserbb 等 URL
+- /user/*/createUser: 匹配 – /user/aaa/createUser、/user/bbb/createUser 等 URL
+- /user/**/createUser: 匹配 – /user/createUser、/user/aaa/bbb/createUser 等 URL
+- /user/createUser??: 匹配 – /user/createUseraa、/user/createUserbb 等 URL
 
