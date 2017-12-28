@@ -48,3 +48,17 @@ public class HiController {
     }
 }
 ```
+
+## HiddenHttpMethodFilter
+> 浏览器form表单只支持GET与PPOST请求，HiddenHttpMethodFilter使得支持PUT,DELETE
+```
+  <filter>
+    <filter-name>HiddenHttpMethodFilter</filter-name>
+    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>HiddenHttpMethodFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+```

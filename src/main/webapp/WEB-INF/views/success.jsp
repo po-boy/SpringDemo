@@ -11,6 +11,6 @@
     <title>success</title>
 </head>
 <body>
-    <h1>login sucess</h1>
+    <h1><a href="/index.jsp">go index</a></h1>
 </body>
 </html>

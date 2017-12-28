@@ -11,8 +11,23 @@
     <title>helloworld</title>
 </head>
 <body>
-    <form action="/spring/helloworld">
-        <input type="submit" value="go"/>
+    <form action="/mapping/operation/3527" method="get">
+        <input type="submit" value="GET==>"/>
     </form>
+    <br><br>
+    <form action="/mapping/operation/3527" method="post">
+        <input type="submit" value="POST==>"/>
+    </form>
+    <br><br>
+    <form action="/mapping/operation/3527" method="post">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" value="DELETE==>"/>
+    </form>
+    <br><br>
+    <form action="/mapping/operation/3527" method="post">
+        <input type="hidden" name="_method" value="PUT">
+        <input type="submit" value="PUT==>"/>
+    </form>
+    <br><br>
 </body>
 </html>
