@@ -35,3 +35,16 @@ public class HiController {
 - /user/**/createUser: 匹配 – /user/createUser、/user/aaa/bbb/createUser 等 URL
 - /user/createUser??: 匹配 – /user/createUseraa、/user/createUserbb 等 URL
 
+## PathVariable
+```
+@RequestMapping("/spring")
+@Controller
+public class HiController {
+
+    @RequestMapping("/delete/{id}")
+    public String delete(@PathVariable("id") Integer id){
+        System.out.println("this id is " + id);
+        return "success";
+    }
+}
+```
