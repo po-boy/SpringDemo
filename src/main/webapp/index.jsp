@@ -14,21 +14,21 @@
     <form action="/mapping/operation/3527" method="get">
         <input type="submit" value="GET==>"/>
     </form>
-    <br>
+
     <form action="/mapping/operation/3527" method="post">
         <input type="submit" value="POST==>"/>
     </form>
-    <br>
+
     <form action="/mapping/operation/3527" method="post">
         <input type="hidden" name="_method" value="DELETE">
         <input type="submit" value="DELETE==>"/>
     </form>
-    <br>
+
     <form action="/mapping/operation/3527" method="post">
         <input type="hidden" name="_method" value="PUT">
         <input type="submit" value="PUT==>"/>
     </form>
-    <br>
+
     <h3>RequestParam</h3>
     <a href="/requestparam/doget?age=10">age</a>
     <br>
@@ -40,5 +40,7 @@
         school_adress:<input type="text" name="school.address">
         <input type="submit" value="提交">
     </form>
+    <h3>ModelAndView</h3>
+    <a href="/modelview/viewtest">let's go</a>
 </body>
 </html>

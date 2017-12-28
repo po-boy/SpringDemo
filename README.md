@@ -69,3 +69,20 @@ public class HiController {
 
 ## POJO
 - 按请求参数名和POJO属性名进行自动匹配，自动为该对象填充属性值。支持级联属性
+
+## ServletAPI
+- HttpServletRequest
+- HttpServletResponse
+- HttpSession
+- java.security.Principal
+- Locale
+- InputStream
+- OutputStream
+- Reader
+- Writer
+
+## 处理模型数据
+- ModelAndView
+- Map 及 Model
+- @SessionAttributes
+- @ModelAttribute

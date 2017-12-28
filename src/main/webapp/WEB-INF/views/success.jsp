@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1><a href="/index.jsp">go index</a></h1>
+    school: ${requestScope.address.name}
 </body>
 </html>
