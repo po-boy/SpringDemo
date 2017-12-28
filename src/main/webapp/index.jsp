@@ -14,22 +14,31 @@
     <form action="/mapping/operation/3527" method="get">
         <input type="submit" value="GET==>"/>
     </form>
-    <br><br>
+    <br>
     <form action="/mapping/operation/3527" method="post">
         <input type="submit" value="POST==>"/>
     </form>
-    <br><br>
+    <br>
     <form action="/mapping/operation/3527" method="post">
         <input type="hidden" name="_method" value="DELETE">
         <input type="submit" value="DELETE==>"/>
     </form>
-    <br><br>
+    <br>
     <form action="/mapping/operation/3527" method="post">
         <input type="hidden" name="_method" value="PUT">
         <input type="submit" value="PUT==>"/>
     </form>
-    <br><br>
+    <br>
     <h3>RequestParam</h3>
     <a href="/requestparam/doget?age=10">age</a>
+    <br>
+    <h3>POJO</h3>
+    <form action="/pojo/user">
+        username:<input type="text" name="name">
+        age:<input type="text" name="age">
+        school_name:<input type="text" name="school.name">
+        school_adress:<input type="text" name="school.address">
+        <input type="submit" value="提交">
+    </form>
 </body>
 </html>
