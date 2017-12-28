@@ -29,5 +29,7 @@
         <input type="submit" value="PUT==>"/>
     </form>
     <br><br>
+    <h3>RequestParam</h3>
+    <a href="/requestparam/doget?age=10">age</a>
 </body>
 </html>
