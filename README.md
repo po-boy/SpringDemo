@@ -63,6 +63,6 @@ public class HiController {
   </filter-mapping>
 ```
 
-## RequestParam
+## RequestParam（RequestHeader，CookieValue）
 - value：参数名
 - required：是否必须。默认为true,表示请求参数中必须包含对应的参数，若不存在，将抛出异常
