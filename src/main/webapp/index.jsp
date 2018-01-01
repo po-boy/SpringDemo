@@ -44,5 +44,7 @@
     <a href="/springmvc/modelview">let's go</a>
     <h3>Map</h3>
     <a href="/springmvc/testMap">Map</a>
+    <h3>SessionAttributes</h3>
+    <a href="/springmvc/sessionAttributeTest">SessionAttributes</a>
 </body>
 </html>

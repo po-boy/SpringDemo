@@ -8,6 +8,15 @@ public class User {
     private Integer age;
     private School school;
 
+    public User() {
+        super();
+    }
+
+    public User(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public void setName(String name) {
         this.name = name;
     }

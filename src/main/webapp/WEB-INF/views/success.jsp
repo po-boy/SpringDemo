@@ -15,5 +15,7 @@
     school: ${requestScope.address.name}
     <br>
     names: ${requestScope.names}
+    <br>
+    sessionattribute: ${sessionScope.user}
 </body>
 </html>
