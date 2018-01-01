@@ -17,5 +17,7 @@
     names: ${requestScope.names}
     <br>
     sessionattribute: ${sessionScope.user}
+    <br>
+    modelAttribute: ${requestScope.user}
 </body>
 </html>

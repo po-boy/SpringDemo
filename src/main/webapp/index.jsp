@@ -46,5 +46,14 @@
     <a href="/springmvc/testMap">Map</a>
     <h3>SessionAttributes</h3>
     <a href="/springmvc/sessionAttributeTest">SessionAttributes</a>
+    <h3>ModelAttribute</h3>
+    <form action="/springmvc/modelattribute" method="post">
+        <input type="hidden" name="id" value="1">
+        username:<input type="text" name="name">
+        age:<input type="text" name="age">
+        school_name:<input type="text" name="school.name">
+        school_adress:<input type="text" name="school.address">
+        <input type="submit" value="提交">
+    </form>
 </body>
 </html>

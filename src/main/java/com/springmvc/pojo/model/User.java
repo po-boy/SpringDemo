@@ -4,6 +4,7 @@ package com.springmvc.pojo.model;
  * Created by 炜 on 2017/12/28.
  */
 public class User {
+    private Integer id;
     private String name;
     private Integer age;
     private School school;
@@ -17,6 +18,17 @@ public class User {
         this.age = age;
     }
 
+    public User(Integer id, String name, Integer age, School school) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.school = school;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -27,6 +39,10 @@ public class User {
 
     public void setSchool(School school) {
         this.school = school;
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getName() {
@@ -44,7 +60,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 ", school=" + school +
                 '}';
