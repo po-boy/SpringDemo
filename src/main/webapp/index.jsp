@@ -41,6 +41,8 @@
         <input type="submit" value="提交">
     </form>
     <h3>ModelAndView</h3>
-    <a href="/modelview/viewtest">let's go</a>
+    <a href="/springmvc/modelview">let's go</a>
+    <h3>Map</h3>
+    <a href="/springmvc/testMap">Map</a>
 </body>
 </html>

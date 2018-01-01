@@ -13,5 +13,7 @@
 <body>
     <h1><a href="/index.jsp">go index</a></h1>
     school: ${requestScope.address.name}
+    <br>
+    names: ${requestScope.names}
 </body>
 </html>
