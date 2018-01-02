@@ -18,7 +18,7 @@ public class ModelAttributeController {
     @ModelAttribute
     public void getUser(@RequestParam(value = "id", required = false) Integer id, Map<String, Object> map){
         if( id != null ){
-            User user = new User(1,"jim",12,new School("iss","xx"));
+            User user = new User(1,"jim",12);
             map.put("user",user);
         }
 
@@ -26,7 +26,7 @@ public class ModelAttributeController {
 
     @RequestMapping("/modelattribute")
     public String modelAttributeTest(User user){
-        System.out.printf("****** user" + user);
+        System.out.println("****** user" + user);
         return SUCCESS;
     }
 

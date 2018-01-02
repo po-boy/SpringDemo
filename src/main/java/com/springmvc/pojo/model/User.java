@@ -18,11 +18,10 @@ public class User {
         this.age = age;
     }
 
-    public User(Integer id, String name, Integer age, School school) {
+    public User(Integer id, String name, Integer age) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.school = school;
     }
 
     public void setId(Integer id) {
@@ -63,7 +62,6 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", school=" + school +
                 '}';
     }
 }
