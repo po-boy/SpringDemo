@@ -86,3 +86,17 @@ public class HiController {
 - Map 及 Model
 - @SessionAttributes
 - @ModelAttribute
+
+## 视图解析
+>jstlview (fmt 国际化)
+
+1. 导入jar包（standard/jstl）
+2. 创建资源文件
+3. 配置资源文件
+4. 在视图中使用fmt标签
+
+>mvc:view-controller (直接响应页面，不再经过handler)
+```
+<mvc:view-controller path="/success" view-name="success"></mvc:view-controller>
+<mvc:annotation-driven></mvc:annotation-driven>
+```

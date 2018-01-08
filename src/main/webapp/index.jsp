@@ -52,5 +52,7 @@
         username:<input type="text" name="name">
         <input type="submit" value="提交">
     </form>
+    <h3>mvc:view-controller</h3>
+    <a href="/success">go</a>
 </body>
 </html>
