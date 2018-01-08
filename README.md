@@ -120,3 +120,7 @@ public class HelloView implements View{
     <property name="order" value="100"></property>
 </bean>
 ```
+>转发与重定向
+* 如果返回的字符串中带forward:或redirect:前缀时，SpringMVC会对他们进行特殊处理：将forward:和redirect:当成指示符，其后的字符串作为URL 来处理
+* redirect:success.jsp：会完成一个到success.jsp的重定向的操作
+* forward:success.jsp：会完成一个到success.jsp的转发操作
