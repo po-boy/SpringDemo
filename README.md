@@ -100,3 +100,4 @@ public class HiController {
 <mvc:view-controller path="/success" view-name="success"></mvc:view-controller>
 <mvc:annotation-driven></mvc:annotation-driven>
 ```
+>自定义视图
