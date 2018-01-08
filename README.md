@@ -101,3 +101,22 @@ public class HiController {
 <mvc:annotation-driven></mvc:annotation-driven>
 ```
 >自定义视图
+```
+@Component
+public class HelloView implements View{
+    public String getContentType() {
+        return "text/html";
+    }
+
+    public void render(Map<String, ?> map, HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
+        httpServletResponse.getWriter().print("hello view, time: " + new Date());
+    }
+}
+```
+```
+<!--自定义视图-->
+<!--order属性确认视图解析器的优先级，值越小优先级越高-->
+<bean class="org.springframework.web.servlet.view.BeanNameViewResolver">
+    <property name="order" value="100"></property>
+</bean>
+```

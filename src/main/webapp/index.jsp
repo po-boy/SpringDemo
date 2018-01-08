@@ -54,5 +54,7 @@
     </form>
     <h3>mvc:view-controller</h3>
     <a href="/success">go</a>
+    <h3>custom view</h3>
+    <a href="/springmvc/hiview">hi view</a>
 </body>
 </html>

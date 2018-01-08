@@ -22,4 +22,10 @@
     <!--配置直接转发页面 -->
     <mvc:view-controller path="/success" view-name="success"></mvc:view-controller>
     <mvc:annotation-driven></mvc:annotation-driven>
+
+    <!--自定义视图-->
+    <!--order属性确认视图解析器的优先级，值越小优先级越高-->
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver">
+        <property name="order" value="100"></property>
+    </bean>
 </beans>
